@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ronoto',sans-serif;
+}
+
+body{
+    background-color: #f0e1ef;
+    padding: 20px; 
+}
+/* *********************NAVBAR********************* */
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    float: right;
+    font-size: 1.75em;
+    font-family: "dancing script", cursive;
+}
+
+nav {
+    overflow: hidden;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.heading h1{
+  font-size: 50px;
+  color: #b71288;
+  margin-bottom: 25px;
+  position: relative;
+  text-align: center
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px; 
+	font-size: 30px;
+}
+
+th, td {
+    text-align: center;
+    padding: 40px;
+    border: 2px solid #f598df;
+}
+
+th {
+    background-color: #f7f4e4;
+    color: #333;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fcfaf5;
+    color: #333;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e60073;
+}
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #1e7085;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #1e7085;
+  border: 2px solid #1e7085;
+}

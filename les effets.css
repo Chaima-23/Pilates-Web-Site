@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ronoto',sans-serif;
+}
+
+body{
+    background-color:#f0e1ef;
+}
+li {
+	font-size:2em;
+}
+/* *********************NAVBAR********************* */
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    float: right;
+    font-size: 1.75em;
+    font-family: "dancing script", cursive;
+}
+
+nav {
+    overflow: hidden;
+    width: 100%;
+    opacity: 0.9;
+}
+header li{
+ float: right;
+ font-size: 1.75em;
+ font-family:  "dancing script",'cursive';
+
+}
+header li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+
+
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.heading h1{
+    font-size: 50px;
+    color: #b71288;
+    margin-bottom: 25px;
+    position: relative;
+}
+.heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #a75a9f;
+}
+.heading p{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 35px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-image{
+    flex: 1;
+    margin-right:40px ;
+    overflow: hidden;
+}
+.about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.about-image:hover img{
+    transform:scale(1.13) ;
+}
+.about-content{
+    flex: 1;
+}
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #666;
+}
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #91116d;
+    text-align: center;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #1e7085;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #1e7085;
+  border: 2px solid #1e7085;
+}
+

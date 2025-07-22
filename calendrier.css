@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ronoto',sans-serif;
+}
+body{
+    padding: 20px; 
+	background-color:#f3fced
+}
+/* *********************NAVBAR********************* */
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    float: right;
+    font-size: 1.75em;
+    font-family: "dancing script", cursive;
+}
+
+nav {
+    overflow: hidden;
+    width: 100%;
+    opacity: 0.9;
+}
+/* Applique des styles au conteneur principal */
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 30px;
+}
+
+/* Applique des styles au titre */
+h1 {
+  font-size: 50px;
+  margin-bottom: 40px;
+  font-family:  "dancing script",'cursive';
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  color: #0f8091;
+}
+.about-image img {
+    float: right;
+    margin-right: 20px;
+}
+.about-image:hover img{
+    transform: scale(1.13);
+}
+/* Applique des styles à la table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+/* Applique des styles aux cellules de temps */
+.time {
+  font-weight: bold;
+  color:#0f8091;
+}
+
+/* Applique des styles aux cellules de cours */
+.class {
+  background-color: #f2f2f2;
+}
+
+/* Applique des styles à l'en-tête de la table */
+th {
+  background-color:#b7e8bb;
+  color: #0f8091;
+  font-weight: bold;
+  padding: 20px;
+}
+
+/* Applique des styles aux cellules de la table */
+td {
+  border: 4px solid #ddd;
+  padding: 10px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1e7085;
+  font-family:  "dancing script",'cursive';
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #1e7085;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #1e7085;
+  border: 2px solid #1e7085;
+}
+
+
+
